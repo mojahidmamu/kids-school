@@ -26,6 +26,37 @@ header {
  font-weight: bold;
 }
 
+.btn1:hover {
+    background-color: beige;
+    color: black;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.span1 {
+    color: orange;
+}
+
+.span2 {
+    color: blue;
+}
+
 footer {
     background-color: #125d80; 
     padding: 30px; 

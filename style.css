@@ -84,12 +84,46 @@ header {
     width: 300px;
 }
 
+.card2 {
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    
+}
+
+.card-img {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card3 {
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    height: 200px;
+    width: 300px;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .title2 {
     text-align: center;
     margin-top: 70px;
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 50px;
+}
+
+.para {
+    color: grey;
 }
 
 .span1 {

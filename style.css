@@ -1,0 +1,24 @@
+
+
+
+
+footer {
+    background-color: #125d80; 
+    padding: 30px; 
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(0, 17%, 81%)
+}
+.footer-title {
+ color: white;   
+    margin-left: 20px;
+}
+
+.footer-first {
+    display: flex;
+}
+.footer-first img{
+
+}

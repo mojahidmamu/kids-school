@@ -1,6 +1,30 @@
+main {
+    padding: 10px;
+    background-image: url(assets/bg.png);
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+}
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
 
+.header-1 {
+    display: flex;
+    gap: 10px;
+}
 
+.btn1 {
+ padding: 10px 20px; 
+ background-color: orange;
+ color: white;
+ border-radius: 10px;
+ font-weight: bold;
+}
 
 footer {
     background-color: #125d80; 
@@ -11,14 +35,12 @@ footer {
     align-items: center;
     color: hsl(0, 17%, 81%)
 }
+
 .footer-title {
+ margin-left: 20px;
  color: white;   
-    margin-left: 20px;
 }
 
 .footer-first {
-    display: flex;
-}
-.footer-first img{
-
-}
+ display: flex;
+} 

@@ -69,6 +69,26 @@ header {
     border: none;
 }
 
+.btn6 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.btn7 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 10px; 
+    margin-left: 32rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .parent-card {
     display: flex; 
     justify-content: space-around;
@@ -90,7 +110,7 @@ header {
     padding: 20px;
     text-align: center;
     background-color: beige;
-    height: 550px;
+    height: 600px;
 }
 
 .card-img {
@@ -103,17 +123,17 @@ header {
     border: 1px solid green;
     border-radius: 10px;
     padding: 20px;
-    text-align: center;
+    text-align: center; 
     background-color: beige;
-    height: 250px;
-    width: 280px;
-    margin-left: 10px;
+    height: 275px;
+    width: 290px;
+    margin-left: 20px;
 }
 
 .card-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 10px; 
 }
 
 .title2 {
